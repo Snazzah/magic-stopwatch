@@ -42,6 +42,7 @@ const stopLap = stopwatch.stop();
 
   - `laps: StopwatchLap[]` - The laps the stopwatch has, recorded with `.lap()`.
   - `elapsed: number` - A getter that returns the amount of time elapsed on the stopwatch.
+  - `stopped: boolean` - Whether or not the stopwatch has stopped.
   - `startTime: number` - The time the stopwatch started at. Will be `-1` if not started.
   - `stopTime: number` - The time the stopwatch stopped at. Will be `-1` if not stopped.
 
@@ -57,6 +58,7 @@ const stopLap = stopwatch.stop();
 
   - `laps: PreciseStopwatchLap[]` - The laps the stopwatch has, recorded with `.lap()`.
   - `elapsed: number` - A getter that returns the amount of time elapsed on the stopwatch.
+  - `stopped: boolean` - Whether or not the stopwatch has stopped.
   - `startTime: bigint` - The time the stopwatch started at. Will be `-1n` if not started.
   - `stopTime: bigint` - The time the stopwatch stopped at. Will be `-1n` if not stopped.
 
