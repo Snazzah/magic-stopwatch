@@ -34,6 +34,16 @@ const stopLap = stopwatch.stop();
 // { elapsed: 10000, timestamp: 1662925989428 }
 ```
 
+You can also use this within modern browsers:
+```html
+<script src="https://unpkg.com/magic-stopwatch@1.0.1/webpack/magic-stopwatch.min.js"></script>
+```
+
+And can be accessed with the `magicStopwatch` global.
+```js
+const stopwatch = new magicStopwatch.Stopwatch();
+```
+
 ### API
 - `Stopwatch` - A stopwatch that records in milliseconds.
   - `new Stopwatch({ type, startNow })`

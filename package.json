@@ -1,9 +1,11 @@
 {
   "name": "magic-stopwatch",
-  "version": "1.0.0",
-  "description": "A simple stopwatch package.",
+  "version": "1.0.1",
+  "description": "A light and pause-able stopwatch module.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "unpkg": "./webpack/magic-stopwatch.min.js",
+  "jsdelivr": "./webpack/magic-stopwatch.min.js",
   "author": {
     "name": "Snazzah",
     "email": "me@snazzah.com",
@@ -21,13 +23,15 @@
     "url": "https://github.com/sponsors/Snazzah"
   },
   "scripts": {
-    "build": "npx rimraf lib && npx tsc",
+    "build": "npx rimraf lib && tsc",
+    "build:package": "tsc && yarn webpack",
     "changelog": "tsx scripts/changelog",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "test": "nyc mocha -r ts-node/register --extension ts 'test/**/*.ts'",
     "gpr": "tsx scripts/gpr",
-    "test-delay": "tsx scripts/testDelay"
+    "test-delay": "tsx scripts/testDelay",
+    "webpack": "esbuild src/index.ts --bundle --minify --keep-names --sourcemap --global-name=magicStopwatch --outfile=webpack/magic-stopwatch.min.js"
   },
   "devDependencies": {
     "@types/chai": "4.3.3",
@@ -36,6 +40,7 @@
     "@types/yargs-parser": "21.0.0",
     "@typescript-eslint/parser": "5.36.2",
     "chai": "4.3.6",
+    "esbuild": "^0.15.7",
     "eslint": "8.23.0",
     "eslint-config-snazzah": "1.1.0",
     "mocha": "10.0.0",

@@ -1,4 +1,4 @@
 module.exports = {
-  ignorePatterns: ['lib', 'scripts'],
+  ignorePatterns: ['lib', 'scripts', 'webpack'],
   extends: 'snazzah'
 };

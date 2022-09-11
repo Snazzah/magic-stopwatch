@@ -32,7 +32,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - run: yarn
-      - run: yarn build
+      - run: yarn build:package
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -52,7 +52,7 @@ jobs:
           scope: '@snazzah'
 
       - run: yarn
-      - run: yarn build
+      - run: yarn build:package
       - run: yarn gpr
       - run: yarn publish
         env:
