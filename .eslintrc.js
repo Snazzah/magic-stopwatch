@@ -1,4 +1,4 @@
 module.exports = {
-  ignorePatterns: ['lib', 'scripts', 'test/__util__/data'],
+  ignorePatterns: ['lib', 'scripts'],
   extends: 'snazzah'
 };

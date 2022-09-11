@@ -6,9 +6,9 @@ on:
       - "!gh-pages"
     paths:
       - "src/**"
-      - ".eslintignore"
       - ".eslintrc.*"
-      - ".prettierrc"
+      - "package.json"
+      - "yarn.lock"
       - ".github/workflows/lint.yml"
   workflow_dispatch:
 

@@ -23,8 +23,8 @@
   "scripts": {
     "build": "npx rimraf lib && npx tsc",
     "changelog": "tsx scripts/changelog",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
     "test": "nyc mocha -r ts-node/register --extension ts 'test/**/*.ts'",
     "gpr": "tsx scripts/gpr",
     "test-delay": "tsx scripts/testDelay"
