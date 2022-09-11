@@ -30,20 +30,20 @@
     "test-delay": "tsx scripts/testDelay"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.3",
-    "@types/mocha": "^9.1.1",
-    "@types/node": "^18.7.16",
-    "@types/yargs-parser": "^21.0.0",
-    "@typescript-eslint/parser": "^5.36.2",
-    "chai": "^4.3.6",
-    "eslint": "^8.23.0",
-    "eslint-config-snazzah": "^1.1.0",
-    "mocha": "^10.0.0",
-    "nyc": "^15.1.0",
-    "ts-node": "^10.9.1",
-    "tsx": "^3.9.0",
-    "typescript": "^4.8.3",
-    "yargs-parser": "^21.1.1",
-    "yarn": "^1.22.19"
+    "@types/chai": "4.3.3",
+    "@types/mocha": "9.1.1",
+    "@types/node": "18.7.16",
+    "@types/yargs-parser": "21.0.0",
+    "@typescript-eslint/parser": "5.36.2",
+    "chai": "4.3.6",
+    "eslint": "8.23.0",
+    "eslint-config-snazzah": "1.1.0",
+    "mocha": "10.0.0",
+    "nyc": "15.1.0",
+    "ts-node": "10.9.1",
+    "tsx": "3.9.0",
+    "typescript": "4.8.3",
+    "yargs-parser": "21.1.1",
+    "yarn": "1.22.19"
   }
 }
