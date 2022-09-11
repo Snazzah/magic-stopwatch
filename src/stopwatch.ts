@@ -24,7 +24,8 @@ export interface StopwatchLap {
 
 /** A stopwatch that records in milliseconds. */
 export class Stopwatch {
-  type: StopwatchTimingType;
+  /** The type of timing the stopwatch uses. */
+  readonly type: StopwatchTimingType;
 
   /** The time the stopwatch started at. Will be `-1` if not started. */
   startTime = -1;

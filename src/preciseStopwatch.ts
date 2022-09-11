@@ -24,8 +24,8 @@ export interface PreciseStopwatchLap {
 
 /** A stopwatch that records in nanoseconds. */
 export class PreciseStopwatch {
-  type: PreciseStopwatchTimingType;
-
+  /** The type of timing the stopwatch uses. */
+  readonly type: PreciseStopwatchTimingType;
   /** The time the stopwatch started at. Will be `-1n` if not started. */
   startTime = -1n;
   /** The time the stopwatch stopped at. Will be `-1n` if not stopped. */
