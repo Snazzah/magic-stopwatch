@@ -34,7 +34,7 @@ const stopLap = stopwatch.stop();
 // { elapsed: 10000, timestamp: 1662925989428 }
 ```
 
-You can also use this within modern browsers:
+You can also use this within modern browsers (that can atleast support [BigInt](https://caniuse.com/bigint)):
 ```html
 <script src="https://unpkg.com/magic-stopwatch@1.0.1/webpack/magic-stopwatch.min.js"></script>
 ```
