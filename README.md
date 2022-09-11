@@ -7,7 +7,7 @@
 `npm install magic-stopwatch` - `yarn add magic-stopwatch`
 
 
-A light and pause-able stopwatch.
+A light and pause-able stopwatch module.
 
 </div>
 
