@@ -1,0 +1,17 @@
+# Packages
+node_modules/
+package-lock.json
+
+# Log files
+logs/
+*.log
+.nyc_output
+
+# Miscellaneous
+.tmp/
+docs/docs.json
+webpack/
+testing/
+.husky/_/
+lib/
+docs/out/
