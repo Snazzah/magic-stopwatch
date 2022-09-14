@@ -40,7 +40,7 @@
     "@types/yargs-parser": "21.0.0",
     "@typescript-eslint/parser": "5.37.0",
     "chai": "4.3.6",
-    "esbuild": "^0.15.7",
+    "esbuild": "0.15.7",
     "eslint": "8.23.1",
     "eslint-config-snazzah": "1.1.0",
     "mocha": "10.0.0",
