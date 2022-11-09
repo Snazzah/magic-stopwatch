@@ -34,11 +34,11 @@
     "webpack": "esbuild src/index.ts --bundle --minify --keep-names --sourcemap --global-name=magicStopwatch --outfile=webpack/magic-stopwatch.min.js"
   },
   "devDependencies": {
-    "@types/chai": "4.3.3",
+    "@types/chai": "4.3.4",
     "@types/mocha": "10.0.0",
     "@types/node": "18.11.9",
     "@types/yargs-parser": "21.0.0",
-    "chai": "4.3.6",
+    "chai": "4.3.7",
     "esbuild": "0.15.13",
     "eslint": "8.27.0",
     "eslint-config-snazzah": "1.2.1",
