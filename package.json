@@ -39,7 +39,7 @@
     "@types/node": "18.11.9",
     "@types/yargs-parser": "21.0.0",
     "chai": "4.3.7",
-    "esbuild": "0.15.14",
+    "esbuild": "0.15.15",
     "eslint": "8.28.0",
     "eslint-config-snazzah": "1.2.1",
     "mocha": "10.1.0",
