@@ -42,7 +42,7 @@
     "esbuild": "0.16.6",
     "eslint": "8.29.0",
     "eslint-config-snazzah": "1.2.1",
-    "mocha": "10.1.0",
+    "mocha": "10.2.0",
     "nyc": "15.1.0",
     "ts-node": "10.9.1",
     "tsx": "3.12.1",
