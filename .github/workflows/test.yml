@@ -28,6 +28,13 @@ jobs:
         with:
           node-version: 18.x
 
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
