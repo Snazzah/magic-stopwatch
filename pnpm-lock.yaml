@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.1
-  '@types/node': 18.15.3
+  '@types/node': 18.15.6
   '@types/yargs-parser': 21.0.0
   chai: 4.3.7
   esbuild: 0.17.11
@@ -20,7 +20,7 @@ specifiers:
 devDependencies:
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.1
-  '@types/node': 18.15.3
+  '@types/node': 18.15.6
   '@types/yargs-parser': 21.0.0
   chai: 4.3.7
   esbuild: 0.17.11
@@ -28,7 +28,7 @@ devDependencies:
   eslint-config-snazzah: 1.2.1_typescript@4.9.5
   mocha: 10.2.0
   nyc: 15.1.0
-  ts-node: 10.9.1_cbfmry4sbbh4vatmdrsmatfg5a
+  ts-node: 10.9.1_7j75yj54t7bl4oxilowqwztre4
   tsx: 3.12.5
   typescript: 4.9.5
   yargs-parser: 21.1.1
@@ -652,8 +652,8 @@ packages:
     resolution: {integrity: sha512-/fvYntiO1GeICvqbQ3doGDIP97vWmvFt83GKguJ6prmQM2iXZfFcq6YE8KteFyRtX2/h5Hf91BYvPodJKFYv5Q==}
     dev: true
 
-  /@types/node/18.15.3:
-    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
+  /@types/node/18.15.6:
+    resolution: {integrity: sha512-YErOafCZpK4g+Rp3Q/PBgZNAsWKGunQTm9FA3/Pbcm0VCriTEzcrutQ/SxSc0rytAp0NoFWue669jmKhEtd0sA==}
     dev: true
 
   /@types/semver/7.3.13:
@@ -3077,7 +3077,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-node/10.9.1_cbfmry4sbbh4vatmdrsmatfg5a:
+  /ts-node/10.9.1_7j75yj54t7bl4oxilowqwztre4:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3096,7 +3096,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.15.3
+      '@types/node': 18.15.6
       acorn: 8.8.1
       acorn-walk: 8.2.0
       arg: 4.1.3
