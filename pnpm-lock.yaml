@@ -1,5 +1,8 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+
 devDependencies:
   '@types/chai':
     specifier: 4.3.5
