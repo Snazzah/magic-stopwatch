@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/chai": "4.3.5",
     "@types/mocha": "10.0.1",
-    "@types/node": "18.16.18",
+    "@types/node": "18.17.4",
     "@types/yargs-parser": "21.0.0",
     "chai": "4.3.7",
     "esbuild": "0.18.17",
